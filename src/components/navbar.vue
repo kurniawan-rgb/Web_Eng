@@ -116,7 +116,7 @@
 <div class="w-96 h-96 mx-4 mt-10 relative">
     <div class="w-96 h-96 left-0 top-0 absolute bg-gray-50"></div>
     <div class="w-80 h-32 left-[19.50px] top-[266px] absolute justify-center items-center inline-flex">
-        <div class="w-80 h-32 text-black text-xl font-semibold font-['Inter']">Kunjungan Kerja Tim          FT - Universitas Tanjungpura<br/></div>
+        <div class="w-80 h-32 text-black text-xl font-semibold font-['Inter']">Kunjungan Kerja Tim         FT - Universitas Tanjungpura<br/></div>
     </div>
     <img class="w-96 h-64 left-0 top-[0.50px] absolute" src="../assets/berita3.png" />
     <div class="w-28 h-5 left-[245.50px] top-[500px] absolute text-sky-900 text-base font-semibold font-['Inter']">Selengkapnya</div>
