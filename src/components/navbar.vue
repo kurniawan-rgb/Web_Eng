@@ -168,41 +168,35 @@
     </section>
   </body>
 
-  <footer>
-    <div class="w-1512 h-554 relative">
-    <img class="w-1512 h-554  left-0 top-0 absolute" src="https://via.placeholder.com/1512x554" />
-    <div class="w-72 h-4 left-[606px] top-[504.04px] absolute text-center text-zinc-400 text-base font-normal font-['Inter'] leading-snug">Copyright © 2022 All rights reserved</div>
-    <div class="w-36 h-28 left-[944px] top-[247px] absolute flex-col justify-start items-start gap-6 inline-flex">
-        <div class="text-center text-white text-base font-bold font-['Inter']">DIDUKUNG OLEH</div>
-        <div class="justify-start items-start gap-4 inline-flex">
-            <div class="w-14 h-16 flex-col justify-center items-center inline-flex">
-                <img class="w-14 h-16" src="https://via.placeholder.com/60x62" />
+  <footer style="background-color: #063D63; color: white;">
+    <div class="content max-w-screen-xl mx-auto py-20">
+        <div class="grid grid-cols-2 gap-5 text-sm font-semibold">
+            <div>
+                <img src="../assets/Logo FT Unhas.png" alt="">
+                <div class="ms-10 my-6 font-normal">
+                    <p>Jalan Poros Malino Km.6, Bontomarannu. Gowa, Sulawesi Selatan. 92171</p>
+                </div>
+                <div class="ms-10 my-6 font-normal">
+                    <p>+62 852-9999-9958</p>
+                    <p>teknik@unhas.ac.id</p>
+                </div>
             </div>
-            <div class="w-16 h-16 justify-center items-center flex">
-                <img class="w-16 h-16" src="https://via.placeholder.com/67x62" />
-            </div>
-        </div>
-    </div>
-    <div class="w-16 h-5 left-[944px] top-[83px] absolute flex-col justify-start items-start gap-6 inline-flex">
-        <div class="text-center text-white text-base font-bold font-['Inter']">ALAMAT</div>
-    </div>
-    <div class="w-96 h-40 left-[168px] top-[247px] absolute flex-col justify-start items-start gap-6 inline-flex">
-        <div class="text-center text-white text-base font-normal font-['Inter']">+62 852-9999-9958</div>
-        <div class="w-40 h-7 justify-center items-center inline-flex">
-            <div class="w-40 h-7 text-white text-base font-normal font-['Inter']">teknik@unhas.ac.id</div>
-        </div>
-        <div class="justify-start items-start gap-6 inline-flex">
-            <div class="w-6 h-7 relative flex-col justify-start items-start inline-flex"></div>
-            <div class="grow shrink basis-0 self-stretch px-px py-px flex-col justify-center items-center inline-flex"></div>
-            <div class="w-6 h-7 relative flex-col justify-start items-start inline-flex"></div>
-            <div class="grow shrink basis-0 self-stretch flex-col justify-center items-center inline-flex"></div>
-            <div class="w-96 h-14 justify-center items-center flex">
-                <div class="w-96 h-14 text-white text-base font-normal font-['Inter']">Jl. Malino No.8 F, Romang Lompoa, Kec. Bontomarannu, Kabupaten Gowa, Sulawesi Selatan 92171</div>
+            <div>
+                <h3>PENELUSURUAN OLEH GOOGLE</h3>
+                <form class="mt-6 bg-white p-3 flex justify-between" action="https:www.google.com/search" method="GET">
+                    <input type="text" name="q" class="text-black p-1 w-full border" placeholder="Google Search">
+                    <input type="submit" value="Search" class="bg-black px-3">
+                </form>
+                <h3 class="mt-6">DIDUKUNG OLEH</h3>
+                <div class="mt-6 flex gap-3 items-center">
+                    <img width="100px" src="../assets/logo upana studio.png" alt="">
+                    <img width="100px" src="../assets//logo oricon.png" alt="">
+                </div>
             </div>
         </div>
     </div>
-    <img class="w-96 h-20 left-[156px] top-[80.02px] absolute" src="https://via.placeholder.com/533x80" />
-</div>
+    <hr style="border-color: #063D63">
+    <div class="footer2 py-6 text-center text-gray-400 text-sm" style="background-color: #063556">Copyright &copy; 2023 All rights reserved</div>
   </footer>
 
 </template>
