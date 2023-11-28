@@ -1,9 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/navbar.vue'
+// import Navbar from './components/navbar.vue';
+import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
-<Navbar></Navbar>
+<HomeView></HomeView>
+<!-- <Navbar></Navbar> -->
 </template>
