@@ -51,9 +51,27 @@
     <div class="w-32 h-5 left-[19.50px] top-[500px] absolute text-neutral-500 text-base font-semibold font-['Inter']">24 Oktober 2022</div>
 </div>
 </div>
+<div v-for="post in postData">
+    <h1>{{ post.Judul }}</h1>
+</div>
 </template>
 <script>
+import { onMounted, ref } from 'vue';
+
 export default {
     name: "BeritaSection"
 }
+
+const postData=ref([])
+
+const getPost = async()=> {
+    return fetch('http://0.0.0.0:8055/admin/content/beritaWeb')
+    .then(response=> response.json())
+}
+
+onMounted(() => {
+    getPost().then(data => {
+        postData.value=data
+    })
+})
 </script>
